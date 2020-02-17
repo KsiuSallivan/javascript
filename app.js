@@ -2,8 +2,15 @@
 // let a = 'ppppp';
 // let a = true;
 // let a = null;
-let a = undefined;
-console.log(a);
+// let a = undefined;
+
+// let b = 10;
+// let a = `Он сказал ${b} раз Привет`;
+
+let a = Symbol();
+let b = Symbol();
+
+console.log(a === b);
 console.log(typeof a);
 
 
