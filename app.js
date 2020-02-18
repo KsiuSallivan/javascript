@@ -1,5 +1,17 @@
+// Занятие 6
+let car = {
+  color: 'red',
+  maxSpeed: 250,
+  audio: {
+    brand: 'Sony',
+    speakers: 12
+  }
+};
 
+console.log(car.color);
 
+car.color = 'green'
+console.log(car.color);
 
 
 
